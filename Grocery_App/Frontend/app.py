@@ -1,5 +1,4 @@
 import streamlit as st
-from manage_groceries import manage_groceries
 from add_update_groceries import add_update_groceries
 from grocery_analytics import grocery_analytics
 
