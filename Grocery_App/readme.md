@@ -84,20 +84,13 @@ While the Grocery Tracker project demonstrates end-to-end development, there are
    - Both FastAPI and Streamlit need to run locally.
    - Not yet optimized for cloud deployment or production scalability.
 
-3. **No category-wise analytics**
-   - Analytics are limited to total counts, percentage bought, and place/item frequency.
-   - Product categories (e.g., fruits, dairy, snacks) are not considered.
-
-4. **Basic UI design**
+3. **Basic UI design**
    - Streamlit UI is functional but lacks advanced interactive features or mobile-specific optimizations beyond CSS tweaks.
 
-5. **Performance with large datasets**
+4. **Performance with large datasets**
    - Designed for moderate data sizes.
    - May slow down with very large grocery histories or heavy analytics computation.
 
-6. **No notifications/reminders**
-   - The app cannot notify users of pending items or weekly grocery trends.
-
-9. **No cloud DB integration**
+5. **No cloud DB integration**
    - Currently uses local MySQL only.
    - Migrating to cloud DB (AWS RDS, etc.) would require configuration changes.
